@@ -1,0 +1,14 @@
+.container .header {
+    padding: 1em;
+    text-align: center;
+}
+
+.container .header h1 {
+    color: #66FCF1
+}
+
+.container .header p {
+    margin-top: -1em;
+    font-size: 14px;
+    color: #C5C6C7;
+}
