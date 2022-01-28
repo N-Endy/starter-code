@@ -7,6 +7,8 @@ body {
 .container .header {
     padding: 1em;
     text-align: center;
+    border: 1px solid #45A29E;
+    border-radius: 0.25rem;
 }
 
 .container .header h1 {
