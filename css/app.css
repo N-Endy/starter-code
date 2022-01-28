@@ -24,14 +24,14 @@ body {
 /* Spaces for books added */
 .container .main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 2em;
     grid-gap: 5px;
     border-radius: 0.5rem;
 }
 
 .container .main .book {
-    padding: 0.5em;
+    padding: 0.5em 1em;
     border: 1px solid #45A29E;
     border-radius: 0.5rem;
 }
