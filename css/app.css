@@ -74,10 +74,14 @@ body {
     margin: 1rem;
     width: 1em;
     height: 1em;
-    border: 3px solid #66FCF1;
+    border: 3px solid #45A29E;
     border-radius: 50%;
     padding: 1.5em;
     float: right;
+}
+
+.container .add-btn:hover {
+    border:3px solid #66FCF1
 }
 
 .container .btn:after,
@@ -89,10 +93,6 @@ body {
     height: 2px;
     padding: 2px;
     transform: rotateX(45deg);
-}
-
-.container .btn:after,
-.container .btn:before {
     top: 45%;
     right: 20%;
 }
@@ -101,8 +101,17 @@ body {
     transform: rotate(.750turn);
 }
 
+.container .btn:after:hover {
+    transform: rotate(.625turn);
+}
+
 .container .btn:before {
     transform: rotate(-.500turn);
+}
+
+.container .btn:before:hover {
+    transform: rotate(-.625turn);
+    color: red;
 }
 
 /* .btn:before,
