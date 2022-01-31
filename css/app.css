@@ -31,7 +31,39 @@ body {
 }
 
 .container .main .book {
-    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    padding: 1em 1em;
     border: 1px solid #45A29E;
     border-radius: 0.5rem;
 }
+
+.container .main .book p span {
+    color: #66FCF1;
+    font-weight: bold;
+}
+
+.container .main .book > * {
+    width: 100%;
+    padding: 1rem 0 0.5rem 0;
+    margin-bottom: 0.45rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+
+.container .main .book > *:last-child {
+    border: none;
+}
+
+/* .container .main .book form > * {
+    width: 100%;
+}
+
+.container .main .book form input {
+    padding: 1rem 0;
+    margin-bottom: 0.45rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+} */
