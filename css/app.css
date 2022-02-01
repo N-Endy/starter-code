@@ -115,12 +115,9 @@ body {
     color: red;
 }
 
-/* .btn:before,
-.btn:after {
-    content: "";
-    background: #66FCF1;
-    width: 2em;
-    height: 3px;
-    border-radius: 1em;
-    transition: transform 250ms ease-in-out;
-} */
+/* Media Query */
+@media screen and (min-width: 760px) {
+    .container .main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
